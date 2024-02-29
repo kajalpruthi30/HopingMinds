@@ -1,0 +1,28 @@
+.overview{
+    font-size: 18px;
+    font-weight: 400px;
+    font-size: 18px;
+    color: #555555;
+}
+
+.overview p{
+    line-height: 27px;
+}
+
+.overview ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.overview li{
+    line-height: 27px;
+    position: relative;
+}
+
+.overview li::before {
+    content: '•';
+    color: #555555;
+    font-size: 20px;
+    margin-right: 12px;
+    margin-left: 12px; 
+  }
